@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/memoryListFragment">
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.emircankirez.mymemories.view.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <action
+            android:id="@+id/action_detailsFragment_to_memoryListFragment"
+            app:destination="@id/memoryListFragment" />
+        <argument
+            android:name="info"
+            app:argType="string" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/memoryListFragment"
+        android:name="com.emircankirez.mymemories.view.MemoryListFragment"
+        android:label="fragment_memory_list"
+        tools:layout="@layout/fragment_memory_list" >
+        <action
+            android:id="@+id/action_memoryListFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+</navigation>
