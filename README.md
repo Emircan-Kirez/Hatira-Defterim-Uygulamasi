@@ -1,4 +1,4 @@
-# Son Güncelleme: 26/02/2023
+# Son Güncelleme: 05/03/2023
 * Bu uygulamada, bir aydır üzerinde çalıştığım Android ve Kotlin derslerinden öğrendiğim bilgileri kullanmaya çalıştım. <br/>
 * Uygulama adından da anlışacağı üzere, hatıralarımızı tek bir yerde biriktirdiğimiz bir uygulama. <br/>
 * Doğrudan app-debug.apk dosyasını indirirek uygulamayı kullanabilirsiniz. <br/>
